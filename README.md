@@ -40,7 +40,7 @@ Reverse zone file
 1. **Update the system & clone the Repository**  
    Download the script to your system or clone the repository:
    ```bash
-   apt update && apt upgrade
+   dnf update -y
 
    dnf install git
    
