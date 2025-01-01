@@ -12,6 +12,8 @@ This script automates the installation and configuration of a local DNS server u
 
 - Automatic installation of necessary packages (e.g., BIND, firewalld).
 
+- Configured Google DNS as Forwarder
+
 - Creation of configuration files for BIND, including:
 named.conf
 Forward zone file
