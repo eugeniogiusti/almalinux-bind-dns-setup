@@ -62,15 +62,13 @@ Switch to the root user if you don't want to enter the password during the proce
    ./bind.sh
 
 
-# Customization
-
 # Adjusting Zone Files
 
 - You can edit the zone files located in /var/named/zones/ to add or modify records:
 
-- Forward zone file: /var/named/zones/db.<domain>
+- Forward zone file: /var/named/zones/db.your_domain_
 
-- Reverse zone file: /var/named/zones/db.<network>.reverse
+- Reverse zone file: /var/named/zones/db.your_network.reverse
 
 # Adding New Records
 
