@@ -78,20 +78,11 @@ Switch to the root user if you don't want to enter the password during the proce
 
 - Add PTR records for new hosts in the reverse zone file.
 
-# Block a domain
-
-- If you want to block a domain at the DNS level, meaning the DNS will block its resolution, go to /etc/named.conf and add the following block of code, replacing "domaintoblock" with the domain you want to block:
-   ```bash
-   zone "domaintoblock" {
-    type master;
-    file "block";
-   
-   };
-
-
-
 # Restart BIND After Changes
 
 ```bash
 sudo systemctl restart named
+
+![image](https://github.com/user-attachments/assets/48c50270-def9-4a98-98e9-d7633f87e037)
+
 
