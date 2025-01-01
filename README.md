@@ -80,33 +80,9 @@ Switch to the root user if you don't want to enter the password during the proce
 
 - Increment the serial number in the SOA record after making changes.
 
-Restart BIND After Changes
+
+# Restart BIND After Changes
 
 ```bash
 sudo systemctl restart named
-
-
-# Troubleshooting
-
-BIND Service Fails to Start:
-
-- Check the syntax of named.conf:
-  ```bash
-sudo named-checkconf /etc/named.conf
-
-
-- Verify zone file syntax:
-   ```bash
-sudo named-checkzone <domain> /var/named/zones/db.<domain>
-
-
-
-DNS Resolution Issues:
-
-- Ensure the firewall is properly configured:
-   ```bash
-sudo firewall-cmd --list-all
-
-- Check /etc/resolv.conf for correct nameserver entries
-
 
