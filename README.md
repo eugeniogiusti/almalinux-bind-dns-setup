@@ -40,6 +40,8 @@ Reverse zone file
 1. **Update the system & clone the Repository**  
    Download the script to your system or clone the repository:
    ```bash
+   sudo su
+   
    dnf update -y
 
    dnf install git
@@ -49,13 +51,13 @@ Reverse zone file
    cd almalinux-bind-dns-setup
 
 
-2. Grant Execution Permissions
+3. Grant Execution Permissions
 Give the script executable permissions:
    ```bash
    chmod +x bind.sh
 
 
-3. Run the Script &
+4. Run the Script &
 Switch to the root user if you don't want to enter the password during the process:
    ```bash
    sudo su
