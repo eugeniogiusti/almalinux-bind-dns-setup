@@ -64,21 +64,21 @@ Switch to the root user if you don't want to enter the password during the proce
 
 # Customization
 
-Adjusting Zone Files
+# Adjusting Zone Files
 
-You can edit the zone files located in /var/named/zones/ to add or modify records:
+- You can edit the zone files located in /var/named/zones/ to add or modify records:
 
-Forward zone file: /var/named/zones/db.<domain>
+- Forward zone file: /var/named/zones/db.<domain>
 
-Reverse zone file: /var/named/zones/db.<network>.reverse
+- Reverse zone file: /var/named/zones/db.<network>.reverse
 
-Adding New Records
+# Adding New Records
 
-Add A records for new hosts in the forward zone file.
+- Add A records for new hosts in the forward zone file.
 
-Add PTR records for new hosts in the reverse zone file.
+- Add PTR records for new hosts in the reverse zone file.
 
-Increment the serial number in the SOA record after making changes.
+- Increment the serial number in the SOA record after making changes.
 
 Restart BIND After Changes
 
