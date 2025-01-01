@@ -32,7 +32,7 @@ Reverse zone file
 
 - Root privileges
 
-- Vm with 
+- Vm with 2core, 2gb ram, 32gb hdd/ssd
 
 
 ## How to Use
