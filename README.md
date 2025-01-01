@@ -83,6 +83,7 @@ Switch to the root user if you don't want to enter the password during the proce
    zone "domaintoblock" {
     type master;
     file "block";
+   
    };
 
 
