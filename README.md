@@ -30,7 +30,7 @@ Reverse zone file
 
 # Requirements
 
- -AlmaLinux 9.5
+- AlmaLinux 9.5
 
 - Root privileges
 
