@@ -46,7 +46,7 @@ Reverse zone file
    
    dnf update -y
 
-   dnf install git
+   dnf install git -y
    
    git clone https://github.com/eugeniogiusti/almalinux-bind-dns-setup.git
    
