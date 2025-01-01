@@ -80,9 +80,8 @@ Switch to the root user if you don't want to enter the password during the proce
 
 # Restart BIND After Changes
 
+![image](https://github.com/user-attachments/assets/0becbeaf-37a7-4f4b-ae7f-4b2125b1834a)
+
 ```bash
 sudo systemctl restart named
-
-![image](https://github.com/user-attachments/assets/48c50270-def9-4a98-98e9-d7633f87e037)
-
 
