@@ -78,6 +78,16 @@ Switch to the root user if you don't want to enter the password during the proce
 
 - Increment the serial number in the SOA record after making changes.
 
+# Block a domain
+
+- If you want to block a domain at the DNS level, meaning the DNS will block its resolution, go to /etc/named.conf and add the following block of code, replacing "domaintoblock" with the domain you want to block:
+   ```bash
+   zone "domaintoblock" {
+    type master;
+    file "block";
+};
+
+
 
 # Restart BIND After Changes
 
