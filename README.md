@@ -10,7 +10,7 @@ This script automates the installation and configuration of a local DNS server u
 
 - Interactive prompts for domain name, network prefix, and subnet mask.
 
-- Automatic installation of necessary packages (e.g., BIND, firewalld).
+- Automatic installation of necessary packages (BIND, firewalld).
 
 - Configured Google DNS as Forwarder
 
