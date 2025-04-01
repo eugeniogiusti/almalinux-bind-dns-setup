@@ -39,7 +39,7 @@ Reverse zone file
 
 ## How to Use
 
-1. **Update the system & clone the Repository**  
+1. Update the system & clone the Repository 
    Download the script to your system or clone the repository:
    ```bash
    sudo su
@@ -97,4 +97,16 @@ https://github.com/eugeniogiusti/
 ![Top Language](https://img.shields.io/github/languages/top/eugeniogiusti/almalinux-bind-dns-setup)
 ![Stars](https://img.shields.io/github/stars/eugeniogiusti/almalinux-bind-dns-setup)
 ![Bash](https://img.shields.io/badge/made%20with-Bash)
+
+
+
+# AlmaLinux BIND DNS Setup
+
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![Last Commit](https://img.shields.io/github/last-commit/eugeniogiusti/almalinux-bind-dns-setup)
+![License](https://img.shields.io/github/license/eugeniogiusti/almalinux-bind-dns-setup)
+![Top Language](https://img.shields.io/github/languages/top/eugeniogiusti/almalinux-bind-dns-setup)
+![Stars](https://img.shields.io/github/stars/eugeniogiusti/almalinux-bind-dns-setup?style=social)
+![Platform](https://img.shields.io/badge/platform-AlmaLinux-blue)
+![Tool](https://img.shields.io/badge/tool-BIND%209-blueviolet)
 
