@@ -87,3 +87,14 @@ Switch to the root user if you don't want to enter the password during the proce
 ```bash
 sudo systemctl restart named
 
+https://github.com/eugeniogiusti/
+
+# Automated OU Organizer
+
+![Status](https://img.shields.io/badge/status-stable-brightgreen)
+![Last Commit](https://img.shields.io/github/last-commit/eugeniogiusti/almalinux-bind-dns-setup)
+![License](https://img.shields.io/github/license/eugeniogiusti/almalinux-bind-dns-setup)
+![Top Language](https://img.shields.io/github/languages/top/eugeniogiusti/almalinux-bind-dns-setup)
+![Stars](https://img.shields.io/github/stars/eugeniogiusti/almalinux-bind-dns-setup)
+![Bash](https://img.shields.io/badge/made%20with-Bash)
+
