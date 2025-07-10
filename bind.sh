@@ -92,6 +92,7 @@ options {
     };
     
     # Disable DNSSEC as requested
+    dnssec-enable no;
     dnssec-validation no;
     
     # Standard RFC1035 compliance settings
@@ -121,8 +122,6 @@ zone "." IN {
     file "named.ca";
 };
 
-# Include other configurations carefully
-include "/etc/named.root.key";
 EOL
 
 # Modify /etc/named.rfc1912.zones to prevent duplicate definitions
