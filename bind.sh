@@ -69,7 +69,7 @@ sudo tee /etc/named.conf > /dev/null <<EOL
 options {
     # Listen on localhost and local network
     listen-on port 53 { 127.0.0.1; ${NETWORK_PREFIX}.0/24; };
-    listen-on-v6 port 53 { ::1; };
+    listen-on-v6 { none; };
     
     # Directory for DNS-related files
     directory   "/var/named";
@@ -96,7 +96,7 @@ options {
     
     # Standard RFC1035 compliance settings
     auth-nxdomain no;
-    listen-on-v6 { any; };
+    
 };
 
 # Local Domain Forward Zone Configuration
